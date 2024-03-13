@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/輸入數字"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textViewHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/猜一個數字"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/猜猜猜"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

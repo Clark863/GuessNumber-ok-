@@ -1,0 +1,17 @@
+<resources>
+    <string name="bigger">Try a higher number</string>
+    <string name="smaller">Try a lower number</string>
+    <string name="dialog_title">Congratulations!</string>
+    <string name="dialog_message">You guessed the number %1$d in %2$d attempts.</string>
+    <string name="play_again">Play Again</string>
+    <string name="exit">Exit</string>
+    <string name="valid_number">Please enter a valid number</string>
+    <string name="hint_message">Guess a number between 1 and 100</string>
+    <string name="app_name" />
+    <string name="enter_your_guess" />
+    <string name="guess_a_number_between_1_and_10" />
+    <string name="guess" />
+    <string name="猜猜猜">Guess</string>
+    <string name="輸入數字">Enter your guess</string>
+    <string name="猜一個數字">Guess a number between 1 and 10</string>
+</resources>
